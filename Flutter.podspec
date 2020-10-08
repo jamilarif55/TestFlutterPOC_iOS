@@ -1,32 +1,14 @@
 Pod::Spec.new do |s|
-  s.name             = 'Flutter'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TestFlutterPOC_iOS.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-A short description of TestFlutterPOC_ios
-                       DESC
-
-  s.homepage         = 'https://github.com/jamilarif55/TestFlutterPOC_iOS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jamilarif55' => 'muhammad.jamil@telenorbank.pk' }
-  s.source           = { :git => 'https://github.com/jamilarif55/TestFlutterPOC_iOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-   s.source_files = '**/*'
-  # s.resource_bundles = {
-  #   'TestFlutterPOC_iOS' => ['TestFlutterPOC_iOS/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.name         = "Flutter"
+  s.version      = "0.1.0"
+  s.summary      = "A drop-in replacement for UILabel, which automatically adds a scrolling marquee effect when needed."
+  s.homepage     = "https://github.com/jamilarif55/TestFlutterPOC_iOS.git"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author       = "Charles Powell"
+  s.source       = { :git => "https://github.com/jamilarif55/TestFlutterPOC_iOS.git", :tag => s.version.to_s }
+  s.frameworks   = 'UIKit', 'QuartzCore'
+  s.requires_arc = true
+  s.source_files = '**/*'
+  s.ios.deployment_target = '9.0'
+  s.swift_version = '5.0'
 end
