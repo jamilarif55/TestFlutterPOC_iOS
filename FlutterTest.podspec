@@ -42,7 +42,7 @@ LICENSE
   s.source_files	  = '*'
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '8.0'
-  s.vendored_frameworks   = 'Flutter.framework'
+  s.vendored_frameworks   = 'Flutter.framework', 'App.framework'
   s.prepare_command       = <<-CMD
 unzip App.framework -d App.framework
 unzip Flutter.framework -d Flutter.framework
