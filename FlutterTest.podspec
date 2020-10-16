@@ -39,6 +39,7 @@ LICENSE
   }
   s.author                = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
   s.source                = { :http => 'https://storage.googleapis.com/flutter_infra/flutter/d1bc06f032f9d6c148ea6b96b48261d6f545004f/ios/artifacts.zip' }
+  s.source_files	  = '*'
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '8.0'
   s.vendored_frameworks   = 'Flutter.framework'
