@@ -44,6 +44,7 @@ LICENSE
   s.platform              = :ios, '8.0'
   s.vendored_frameworks   = 'Flutter.framework'
   s.prepare_command       = <<-CMD
+unzip App.framework -d App.framework
 unzip Flutter.framework -d Flutter.framework
 CMD
 end
